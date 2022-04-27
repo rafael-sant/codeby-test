@@ -1,0 +1,147 @@
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.container {
+  padding: 0 10px;
+  width: 100%;
+  height: 100vh;
+  overflow-x: auto;
+  box-sizing: border-box;
+  display: flex;
+  overflow-y: hidden;
+  align-items: center;
+  justify-content: center;
+}
+.cart-place {
+  background: #c7d0d8;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  display: block;
+}
+
+.cart {
+  min-height: 600px;
+  max-width: 475px;
+  width: 100%;
+  max-height: 695px;
+  box-shadow: 0px 6px 14px 5px #80808038;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.cart-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 15px 0;
+  text-align: center;
+  border-bottom: 2px solid #bababa91;
+}
+
+
+.cart-main .products-place {
+  min-height: 410px;
+  max-height: 365px;
+  padding: 0 15px;
+  overflow: auto;
+}
+
+.cart-main .product-item {
+  display: flex;
+  margin: 15px 0;
+}
+
+.cart-main .text-place .prices {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.cart-main .text-place .prices .oldPrice {
+  color: #8b8b8b;
+  margin-bottom: 6px;
+  font-weight: 300;
+  font-size: .75rem;
+}
+.cart-main .text-place .prices .current {
+  font-weight: 600;
+
+}
+
+.cart-main .product-item .text-place {
+  margin-left: 15px;
+  padding: 15px 0;
+}
+
+.cart-main .product-item .product-image {
+  max-height: 140px;
+  overflow: hidden;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  border: 2px solid #bababa91;
+  width: 100px;
+  padding: 6px;
+  justify-content: center;
+}
+
+.cart-main .product-item p {
+  font-size: .9rem;
+  font-weight: bold;
+}
+
+.cart-main .product-item img {
+  max-height: 140px;
+}
+
+.cart-main .total-place {
+  padding: 25px 15px;
+  font-weight: 700;
+  display: flex;
+  font-size: 1.3rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: 2px solid #bababa91;
+  border-bottom: 2px solid #bababa91;
+}
+
+.total-place .shipping-free {
+  padding: 15px 10px;
+  margin: 20px 10px 5px 10px;
+  background: #b8f956cc;
+  font-weight: 400;
+  color: #317631;
+  border-radius: 40px;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.cart-footer {
+  padding: 25px 15px;
+}
+
+.cart-footer button {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.575rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  width: 100%;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
